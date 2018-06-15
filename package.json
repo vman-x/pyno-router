@@ -1,0 +1,33 @@
+{
+  "name": "pyno-router",
+  "version": "1.0.0",
+  "description": "A simple application to route http/https requests to python function using nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamVman/pyno-router.git"
+  },
+  "keywords": [
+    "python",
+    "node",
+    "routing",
+    "express",
+    "functions"
+  ],
+  "author": "Vman",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/IamVman/pyno-router/issues"
+  },
+  "homepage": "https://github.com/IamVman/pyno-router#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
